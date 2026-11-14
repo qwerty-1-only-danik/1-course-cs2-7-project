@@ -1,0 +1,43 @@
+/* ==================== Мобильная адаптация (до 768px) ==================== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 5%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    #home, #partners, #features, #community, #gallery, footer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero-top, .bento-grid, .features-grid, #community, .gallery-grid, footer {
+        flex-direction: column;
+    }
+
+    .hero-top h1, .hero-side-note, .bento-left, .bento-middle, .bento-right, .feature-card, .community-stats, .gallery-col-large, .gallery-col-mid, .gallery-col-tall {
+        width: 100%;
+    }
+
+    .hero-top h1 {
+        font-size: 36px;
+    }
+
+    .stat-big {
+        font-size: 52px;
+    }
+
+    .gallery-col-large img, .gallery-col-tall img {
+        height: 280px;
+    }
+
+    .footer-links {
+        gap: 40px;
+    }
+}
